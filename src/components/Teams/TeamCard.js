@@ -19,10 +19,12 @@ const TeamCard = (props) => {
                 </div>
                 <table className='table__classes'>
                     <tr>
-                        <th>
-                            <img src="" />
-                            <p>Warrior</p>
-                        </th>
+                        <td>
+                            <img src="./" />
+                        </td>
+                        <td>
+                            Warrior
+                        </td>
                     </tr>
                 </table>
             </div>
