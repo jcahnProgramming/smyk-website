@@ -1,24 +1,26 @@
 import { Link } from 'react-router-dom';
+import { Navbar } from "@nextui-org/react";
 
 const NavBar = () => {
     return (
         <div className="navbar">
-            <li>
-                <Link to="/">Home</Link>
-            </li>
-            <li>
-                <Link to="/about">About Us</Link>
-            </li>
-            <li>
+            <Navbar>
+                <Navbar.Brand>
+                    <Link to="/">Home</Link>
+                </Navbar.Brand>
+                <Navbar.Brand>
+                    <Link to="/about">About</Link>
+                </Navbar.Brand>
+                <Navbar.Brand>
                 <Link to="/joinus">Join Us</Link>
-            </li>
-            <li>
+                </Navbar.Brand>
+                <Navbar.Brand>
                 <Link to="/contact">Contact</Link>
-            </li>
-            <li>
+                </Navbar.Brand>
+                <Navbar.Brand>
                 <Link to="/shop">Shop</Link>
-            </li>
-
+                </Navbar.Brand>
+            </Navbar>
         </div>
     )
 }
