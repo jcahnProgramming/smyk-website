@@ -1,4 +1,5 @@
 import { Container, Card, Row, Text } from "@nextui-org/react";
+import TeamCard from "../components/Teams/TeamCard";
 
 const Home = () => {
     return (
@@ -13,6 +14,8 @@ const Home = () => {
                         </Row>
                     </Card.Body>
                 </Card>
+                <TeamCard title="Team Name" raidTimes="Friday 8:00pm - 10:00pm"/>
+            
             </Container>
 
         </div>
