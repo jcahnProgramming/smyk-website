@@ -1,0 +1,29 @@
+.button {
+    border-radius: 0.5rem;
+    border:rgb(255, 255, 255);
+    height: 30px;
+    width: 150px;
+    background-color: #88D498;
+    color: black;
+    font-weight: bolder;
+}
+.card__big {
+    border-radius: 0.75rem;
+    background-color: #687387;
+    height: 400px;
+    width: 300px;
+}
+.card__img {
+
+}
+.card__title {
+    color:rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.card__content {
+    color:rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}

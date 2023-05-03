@@ -9,13 +9,14 @@
 .card__big {
     border-radius: 0.75rem;
     background-color: #687387;
-    height: 350px;
+    height: 400px;
     width: 300px;
 }
 hr.rounded {
     border-top: 1px solid #ffffff;
     width: 70%;
     border-radius: .5rem;
+    vertical-align: middle;
 }
 .raidtimes {
     text-align: center;
@@ -32,4 +33,23 @@ hr.rounded {
 .table__classes {
     align-items: center;
     border-color: black;
+    margin: 0 auto;
+    border-spacing: 20px 5px;
+}
+.table__tabledata {
+    border: 0px solid;
+}
+.img__classes {
+    height: 25px;
+    width: 25px;
+    border-radius: 2rem;
+}
+.button {
+    border-radius: 0.5rem;
+    border:rgb(255, 255, 255);
+    height: 30px;
+    width: 150px;
+    background-color: #88D498;
+    color: black;
+    font-weight: bolder;
 }
