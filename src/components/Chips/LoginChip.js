@@ -11,7 +11,7 @@ const LoginChip = (props) => {
 
   return (
     <div className='chip' onClick={ChipHandler}>
-        <div onClick={ChipHandler}>
+        <div>
             <img className='chip__img' src={require('../../img/logo.png')} />
         </div>
         <div className='chip__text'>
