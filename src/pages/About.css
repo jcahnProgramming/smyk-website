@@ -1,0 +1,45 @@
+.centered__gap {
+    align-items: center;
+    justify-content: center;
+}
+
+.centered {
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    display: flex;
+}
+.join__big {
+    border-radius: 0.75rem;
+    background-color: #687387;
+    padding-bottom: 2%;
+    height: max-content;
+    width: 95%;
+}
+.join__title {
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+}
+.about__text {
+    color: white;
+    padding: 1%;
+    text-align: center;
+    float: center;
+    clear: center;
+}
+.about__rules {
+    color: white;
+    padding: 1%;
+    text-align: center;
+}
+.join__button {
+    background-color: #7289DA;
+    width: 300px;
+    height: 90px;
+    font-size: xx-large;
+    color: white;
+    border-radius: 1rem;
+}
