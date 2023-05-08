@@ -16,8 +16,6 @@ import Contact from "./pages/Contact";
 import Shop from "./pages/Shop";
 import UserAccount from "./pages/UserAccount";
 
-import LoginChip from "./components/Chips/LoginChip";
-
 import "./App.css";
 
 const App = () => {
