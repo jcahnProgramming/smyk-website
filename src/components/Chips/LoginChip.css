@@ -1,0 +1,27 @@
+.chip {
+    width: 235px;
+    height: 40px;
+    background-color: #BECBD6;
+    border-radius: 0.75rem;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+.chip__text {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    display: block;
+    width: 100%;
+    color: black;
+
+}
+.chip__img {
+    height: 40px;
+    width: 60px;
+    border-radius: 0.75rem;
+    border-color: black;
+}

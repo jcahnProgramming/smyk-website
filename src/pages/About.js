@@ -16,13 +16,13 @@ const About = () => {
                         Show Me Your Kitties Origin
                     </div>
                     <div className='about__text'>
-                    On August 30th 2022 a group of nostalgic players formed on Maladath-US (A) with a common goal, to form a community of players who love cats. Thus, Show Me Your Kitties was born. Within the first month on this fresh server the guild would be reported multiple times for "name violations" stemming from the word "Kitties" in our name.
-                    Overtime the WoW Wrath guild would make the adjustment in their name to Show Me Your Kittens to fit with Blizzard's naming policy. But that wouldn't stop our players from posting daily cat pictures in our discord channels.
-                    As Wrath of the Lich King Classic released, SMYK would grow and be known on the server as a "casual community of animal lovers of all types".
-                    Maladath would see SMYK as a community of meme loving animal lovers who's community would reach much farther than the in-game guild it had started from. SMYK would grow to include communities in: WoW Classic-Wrath, WoW Retail, FFXIV, OSRS, Minecraft, Overwatch, LoL, Call of Duty, SWTOR, and Star Citizen.
-                    As with all great things, SMYK was faced with a tough decision in January 2023. As Blizzard opened up free character transfers OFF Maladath without allowing for Character Transfers on to Maladath and without allowing for the use of Paid Boosts.
-                    SMYK Stayed on Maladath until February 1st, when the WoW Server population was reported as ~400 Alliance ~100 Horde active players. At that moment the leadership felt the need to move the community to a more active server finally taking the free transfers off of Maladath-US to Windseeker-US where SMYK is to this day.
-                    At the time of writing, SMYK is currently above 450 active accounts with 20+ active players at any given time and growing daily.
+                        <ol>On August 30th 2022 a group of nostalgic players formed on Maladath-US (A) with a common goal, to form a community of players who love cats. Thus, Show Me Your Kitties was born. Within the first month on this fresh server the guild would be reported multiple times for "name violations" stemming from the word "Kitties" in our name.</ol>
+                        <ol>Overtime the WoW Wrath guild would make the adjustment in their name to Show Me Your Kittens to fit with Blizzard's naming policy. But that wouldn't stop our players from posting daily cat pictures in our discord channels.</ol>
+                        <ol>As Wrath of the Lich King Classic released, SMYK would grow and be known on the server as a "casual community of animal lovers of all types".</ol>
+                        <ol>Maladath would see SMYK as a community of meme loving animal lovers who's community would reach much farther than the in-game guild it had started from. SMYK would grow to include communities in: WoW Classic-Wrath, WoW Retail, FFXIV, OSRS, Minecraft, Overwatch, LoL, Call of Duty, SWTOR, and Star Citizen.</ol>
+                        <ol>As with all great things, SMYK was faced with a tough decision in January 2023. As Blizzard opened up free character transfers OFF Maladath without allowing for Character Transfers on to Maladath and without allowing for the use of Paid Boosts.</ol>
+                        <ol>SMYK Stayed on Maladath until February 1st, when the WoW Server population was reported as ~400 Alliance ~100 Horde active players. At that moment the leadership felt the need to move the community to a more active server finally taking the free transfers off of Maladath-US to Windseeker-US where SMYK is to this day.</ol>
+                        <ol>At the time of writing, SMYK is currently above 450 active accounts with 20+ active players at any given time and growing daily.</ol>
                     </div>
                 </div>  
             </div>
@@ -73,6 +73,7 @@ const About = () => {
                         <li>BAN from our community. (If a community member is banned they may appeal the ban via our website in your profile under the "ban appeal" section)</li>
                         <br />
                         <ol>Again we'd like to take the time to thank you for reading all of this information, it is important in order to keep our community a safe and fun place for all of our members!</ol>
+                        <br />
                         <button className='join__button' onClick={DiscordLoginHandler}>Login with Discord</button>
                     </div>
                 </div>

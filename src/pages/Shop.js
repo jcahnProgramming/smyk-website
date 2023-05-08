@@ -1,6 +1,8 @@
+import React from 'react';
+
 const Shop = () => {
     return (
-        <div>Shop Page</div>
+        window.location.href = 'https://smyk.creator-spring.com/'
     );
 }
 export default Shop;

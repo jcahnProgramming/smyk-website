@@ -14,6 +14,9 @@ import About from "./pages/About";
 import Joinus from "./pages/Joinus";
 import Contact from "./pages/Contact";
 import Shop from "./pages/Shop";
+import UserAccount from "./pages/UserAccount";
+
+import LoginChip from "./components/Chips/LoginChip";
 
 import "./App.css";
 
@@ -28,6 +31,7 @@ const App = () => {
           <Route path="/joinUs" element={<Joinus />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/shop" element={<Shop />} />
+          <Route path="/useraccount" element={<UserAccount />} />
         </Routes>
       </Router>
     </div>
