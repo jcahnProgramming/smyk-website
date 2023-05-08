@@ -22,6 +22,8 @@ const TeamCard = (props) => {
                         {props.raidTimes}
                     </p>
                 </div>
+                <hr className='rounded'/>
+                <p className='recruiting'>Recruiting Needs</p>
                 <table className='table__classes'>
                     <tr>
                         <td className=''>
@@ -94,7 +96,9 @@ const TeamCard = (props) => {
                         </td>
                     </tr>
                 </table>
-                <button className='button' onClick={SeeTeamPageButtonHandler}>See Team Page</button>
+                <div className='button__div'>
+                    <button className='button' onClick={SeeTeamPageButtonHandler}>See Team Page</button>
+                </div>
             </div>
         </div>
     );
