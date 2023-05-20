@@ -15,8 +15,9 @@ const DataCard = (props) => {
                 ApplyTeamHandler();
                 break;
             case 'applyOfficerHandler':
+                console.log("made it to applyofficerhandler");
                 ApplyOfficerHandler();
-                break;
+                return ApplyOfficerHandler();
             default: handlerData = null;
         }
     };
@@ -29,8 +30,8 @@ const DataCard = (props) => {
         //add functionality here to move to team page on {prop.teamPageLink}
     };
 
-    function ApplyOfficerHandler() {
-        //add functionality here to move to team page on {prop.teamPageLink}
+    const ApplyOfficerHandler = ()  => {
+        window.open("https://forms.gle/gBABvdQtQHxoFr3a9");
     };
 
   return (

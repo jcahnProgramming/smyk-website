@@ -63,3 +63,19 @@ hr.rounded {
 .button__div {
     padding-top: 5%;
 }
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    width: 100%;
+    height: 100%;
+    background-color: #687387;
+    border-radius: 0.75rem;
+    
+
+}
+.close-btn {
+
+}

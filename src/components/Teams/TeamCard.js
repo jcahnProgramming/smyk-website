@@ -4,6 +4,12 @@ import "./TeamCard.css";
 
 const TeamCard = (props) => {
 
+    const [showModal, setShowModal] = useState(false);
+
+    const handleShow = () => setShowModal(true);
+    const handleClose = () => setShowModal(false);
+
+
     function SeeTeamPageButtonHandler() {
         //add functionality here to move to team page on {prop.teamPageLink}
     };
@@ -97,7 +103,29 @@ const TeamCard = (props) => {
                     </tr>
                 </table>
                 <div className='button__div'>
-                    <button className='button' onClick={SeeTeamPageButtonHandler}>See Team Page</button>
+                    <button className='button' onClick={handleShow}>See Team Page</button>
+
+                    {showModal && (
+                        <div className='modal'>
+                            <div className='modal-content'>
+                                <span className='close' onClick={handleClose}>
+                                &times;
+                                </span>
+                                    <div>
+                                        
+                                    </div>
+                                <h2>{props.title}</h2>
+                                <p>
+                                    Modal Body Text Here
+                                </p>
+                                <button className='close-btn' onClick={handleClose}>
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    )}
+
+
                 </div>
             </div>
         </div>
