@@ -1,11 +1,18 @@
+import React, { useState } from 'react';
 import DataCard from '../components/DataCard/DataCard';
 
 import './About.css';
 
 const About = () => {
+    const [authUrl, setAuthUrl] = useState('');
 
     function DiscordLoginHandler() {
-        
+        const clientId = '1109578889178652672'; //replace CLIENT_ID w/ discord clientID
+        const redirectUri = 'localhost:3000/useraccount'; //replace REDIRECT_URI w/ callback URL
+        const scope = 'https://discord.com/api/oauth2/authorize?client_id=1109578889178652672&redirect_uri=localhost%3A3000%2Fuseraccount&response_type=code&scope=identify%20email'; //replace scope with necessary scope for app
+        const authUrl = `https://discord.com/api/oauth2/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&response_type=code&scope=${scope}`;
+        setAuthUrl(authUrl);
+    
     };
 
     return (
@@ -26,7 +33,6 @@ const About = () => {
                     </div>
                 </div>  
             </div>
-
             <div className='centered'>
                 <div className='join__big'>
                     <div className='join__title'>
@@ -74,13 +80,14 @@ const About = () => {
                         <br />
                         <ol>Again we'd like to take the time to thank you for reading all of this information, it is important in order to keep our community a safe and fun place for all of our members!</ol>
                         <br />
-                        <button className='join__button' onClick={DiscordLoginHandler}>Login with Discord</button>
+                        {authUrl ? (
+                            <a href={authUrl}>Login with Discord</a>
+                        ) : (
+                            <button className='join__button' onClick={DiscordLoginHandler}>Login with Discord</button>
+                        )}
                     </div>
                 </div>
             </div>
-            
-
-
         </div>
     );
 }

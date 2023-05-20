@@ -30,7 +30,7 @@ const DataCard = (props) => {
         //add functionality here to move to team page on {prop.teamPageLink}
     };
 
-    const ApplyOfficerHandler = ()  => {
+    const ApplyOfficerHandler = () => {
         window.open("https://forms.gle/gBABvdQtQHxoFr3a9");
     };
 
